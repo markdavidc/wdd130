@@ -1,8 +1,15 @@
-body {
+body{
  background-color: lightblue;
+}
+.nav_link {
+    padding: 10mm;
+    font-size: 1.3mm;
 }
 a {
     padding: 10px;
     color: black;
     font-size: 20px;
+}
+#main_title{
+    font-size: 4em;
 }
