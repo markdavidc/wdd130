@@ -1,15 +1,54 @@
-body{
- background-color: lightblue;
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+body {
+   background-color: rgb(130, 155, 191);
+   margin: 0;
+   padding: 0;
+}
+#content {
+   max-width: 1600px;
+   margin: 0 auto;
+}
+nav {
+   display: flex;
+   justify-content: center;
 }
 .nav_link {
-    padding: 10mm;
-    font-size: 1.3mm;
+   padding: 30px;
+   font-size: 1.3em;
+   text-decoration: none;
+   text-align: center;
+}
+main {
+   background-color: white;
+   padding: 40px;
+}
+img {
+   width: 60%;
 }
 a {
-    padding: 10px;
-    color: black;
-    font-size: 20px;
+   color: black;
 }
-#main_title{
-    font-size: 4em;
+nav a:hover {
+   color: navy;
+   background-color: white;
+}
+
+#main_title {
+   font-size: 3em;
+   text-align: center;
+   font-family: Sixtyfour;
+}
+img {
+   display: block;
+   margin: 0 auto;
+}
+p, h3{
+   text-align: center;
+}
+#sub_title {
+   color: rgb(197, 125, 18);
+}
+footer {
+   padding: 20px;
 }
