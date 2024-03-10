@@ -203,17 +203,19 @@ nav {
 }
 .rafting-img {
     border: 10px solid #d9c2a3;
-    width: 100%;
+    width: 95%;
 }
 h1 {
     text-align: center;
+    background-color: lightblue;
+    border-radius: 5px;
 }
 span {
     background-color: lightblue;
     font-size: .8em;
     line-height: 1em;
     padding: 35px;
-    margin-top: 50px;
+    margin-top: 25px;
     border-radius: 5px;
 }
 
