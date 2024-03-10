@@ -195,6 +195,29 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+/* FAQ CSS */
+.FAQ-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.rafting-img {
+    border: 10px solid #d9c2a3;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+span {
+    background-color: lightblue;
+    font-size: .8em;
+    line-height: 1em;
+    padding: 35px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
