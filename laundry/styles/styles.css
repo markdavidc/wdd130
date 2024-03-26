@@ -17,6 +17,8 @@ header {
 nav a {
     padding: 1rem;
     transition: all 0.4s;
+    color: green;
+    text-decoration: none;
 }
 header h1 {
     font-size: 1.2rem;
@@ -72,12 +74,19 @@ footer {
 }
 #begin p {
     padding: 0 10px;
-    height: 100%;
     width: 300px;
     text-align: center;
 }
 #begin {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    align-items: center;
+}
+footer a {
+    color: green;
+    text-decoration: none;
+}
+.card-content a {
+    color: green;
+    text-decoration-line: none;
 }
