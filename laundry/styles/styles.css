@@ -98,8 +98,8 @@ footer a {
     text-align: center;
     justify-self: center;
     grid-column: 1/3;
-    width: 70%;
-    font-size: 30px
+    font-size: 30px;
+    background-color: lightyellow;
 }
 #Washer-steps {
     display: grid;
@@ -144,4 +144,36 @@ ol.list {
     grid-column: 1/3;
     width: 50%;
     font-size: 20px;
+    background-color: lightyellow;
+}
+#dryer-steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.bin {
+    grid-column: 1/3;
+    justify-self: center;
+    width: 30%;
+    height: 90%;
+}
+#dryer-steps h2 {
+    font-size: 80px;
+    text-align: center;
+}
+#dryer-steps p {
+    text-align: center;
+    justify-self: center;
+    grid-column: 1/3;
+    font-size: 30px;
+    background-color: lightyellow;
+}
+.folded {
+    height: 280px;
+    justify-self: center;
+    border-radius: 4%;
+}
+li:not(:last-child) {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
